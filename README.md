@@ -1,4 +1,6 @@
 Overview
+
+
 It's essential to ensure that the required CSV files (users.csv, records1.csv, records2.csv, records3.csv, and players.csv) are located in the databases directory within the main project directory. This setup is necessary for the correct functioning of the script. Ensure that the directory structure matches the repository structure.  
 
 Prerequisites
