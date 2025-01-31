@@ -40,10 +40,12 @@ cd Guess_Who_Game
 ``` 
 
 
-### Configuration ⚙️ Ensure the following directory structure for images:
+### Configuration ⚙️ 
 
-### Configuration
 Ensure the following directory structure for images:
+
+
+
 Images/ ├── Faces/ │ ├── player1.png │ └── player2.png └── Logos/ ├── team1.png └── team2.png
 
 
