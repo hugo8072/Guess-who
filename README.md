@@ -41,6 +41,10 @@ This project is a Python-based implementation of the classic "Guess Who" game. T
 Ensure the following directory structure for images:
 Images/ ├── Faces/ │ ├── player1.png │ └── player2.png └── Logos/ ├── team1.png └── team2.png
 
+
+
+
+
 ### Running the Application
 Start the game:
 ```sh
@@ -50,5 +54,7 @@ python main.py
 
 Running Tests
 Run the tests using pytest:
- ```pytest
+
+ ```sh
+pytest
     ```
