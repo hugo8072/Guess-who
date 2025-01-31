@@ -1,47 +1,51 @@
-﻿Overview
+﻿# Guess Who Game
 
+## Project Overview
+This project is a Python-based implementation of the classic "Guess Who" game. The game allows users to select teams and guess the players based on various attributes.
 
-It's essential to ensure that the required CSV files (users.csv, records1.csv, records2.csv, records3.csv, and players.csv) are located in the databases directory within the main project directory. This setup is necessary for the correct functioning of the script. Ensure that the directory structure matches the repository structure.  
+## Features
+- **Player Management**: Manage player attributes such as name, team, hair color, hair length, skin color, continent, goals, assists, and position.
+- **Image Loading**: Load player and team logo images from specified directories.
+- **Game Interface**: User interface for interacting with the game, including username entry and team selection.
+- **CSV Operations**: Read and write user data to a CSV file.
+- **Testing**: Comprehensive tests for game functionality using `pytest`.
 
-Prerequisites
+## Technologies Used
+- **Python**: The primary programming language for the project.
+- **PIL (Pillow)**: Library for image processing.
+- **tkinter**: Standard Python interface to the Tk GUI toolkit.
+- **pytest**: Framework for testing Python code.
+- **unittest.mock**: Library for mocking objects in tests.
 
-Python: The script requires Python to be installed on your system. If you don't have Python installed, download and install it from python.org.
-pygame: Install it using pip install pygame.
-openCV: Install it using pip install opencv-python.
-imageio: Install it using pip install imageio.
-Pillow: Install it using pip install pillow.
-tkinter: This is usually included with Python, but if not, you can install it using your package manager (e.g., sudo apt-get install python3-tk on Ubuntu).
-CSV Files: Ensure that the CSV files (users.csv, records1.csv, records2.csv, records3.csv, and players.csv) are placed in the databases directory within the main project directory.
+## Getting Started
 
+### Prerequisites
+- Python 3.x installed on your machine.
+- Required Python packages (listed in `requirements.txt`).
 
-Execution Instructions
+### Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/Guess_Who_Game.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Guess_Who_Game
+    ```
+3. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-Windows
-Open Command Prompt: Press Win + R, type cmd, and press Enter.
-Navigate to the Script Directory: Use the cd command to change to the directory containing your script.
-cd path\to\your\script
-Replace path\to\your\script with the actual path to your Python script.  
-Run the Script: Execute the script by typing:
-python Game_Interface.py
+### Configuration
+Ensure the following directory structure for images:
+Images/ ├── Faces/ │ ├── player1.png │ └── player2.png └── Logos/ ├── team1.png └── team2.png
 
-Linux
-Open Terminal: You can usually open it by pressing Ctrl + Alt + T.
-Navigate to the Script Directory: Use the cd command to change to your script's directory.
-cd /path/to/your/script
-Replace /path/to/your/script with the actual path.  
-Run the Script: Execute the script by typing:
-python3 Game_Interface.py
-or  
-./Game_Interface.py
-(Make sure your script has execution permissions. You can set it with chmod +x Game_Interface.py.)  
-
-macOS
-Open Terminal: You can find it in Applications -> Utilities, or use Spotlight to search for it.
-Navigate to the Script Directory: Use the cd command to navigate to your script's directory.
-cd /path/to/your/script
-Replace /path/to/your/script with the actual path.  
-Run the Script: Execute the script by typing:
-python3 Game_Interface.py
-or  
-./Game_Interface.py
-(Ensure your script is executable with chmod +x Game_Interface.py.)
+### Running the Application
+Start the game:
+```sh
+python main.py
+Running Tests
+Run the tests using pytest:
+ ```pytest
+    ```
