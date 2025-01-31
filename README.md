@@ -35,8 +35,8 @@ cd Guess_Who_Game
 ``` 
 
 3. Install the dependencies:
- ```
-sh pip install -r requirements.txt 
+ ```sh
+ pip install -r requirements.txt 
 ``` 
 
 
