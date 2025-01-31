@@ -24,9 +24,15 @@ This project is a Python-based implementation of the classic "Guess Who" game. T
 - Required Python packages (listed in `requirements.txt`). 
 
 ### Installation 💻 
-1. Clone the repository: ```sh git clone https://github.com/hugo8072/Guess-who ``` 
-2. Navigate to the project directory: ```sh cd Guess_Who_Game ``` 
-3. Install the dependencies: ```sh pip install -r requirements.txt ``` 
+1. Clone the repository: 
+```sh git clone https://github.com/hugo8072/Guess-who ``` 
+
+2. Navigate to the project directory: 
+```sh cd Guess_Who_Game ``` 
+
+3. Install the dependencies:
+ ```sh pip install -r requirements.txt ``` 
+
 
 ### Configuration ⚙️ Ensure the following directory structure for images:
 
