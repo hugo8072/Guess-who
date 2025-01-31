@@ -26,7 +26,7 @@ This project is a Python-based implementation of the classic "Guess Who" game. T
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/Guess_Who_Game.git
+    git clone https://github.com/hugo8072/Guess-who
     ```
 2. Navigate to the project directory:
     ```sh
@@ -45,6 +45,9 @@ Images/ ├── Faces/ │ ├── player1.png │ └── player2.png └
 Start the game:
 ```sh
 python main.py
+ ```
+
+
 Running Tests
 Run the tests using pytest:
  ```pytest
